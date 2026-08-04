@@ -8,8 +8,9 @@
 
 ## 🚀 Live Demo
 *Codex AI – NexusVoid:
-Live URL: https://codexai-nine.vercel.app/
-The Last-Minute Life Saver:
+Live URL: https://codexai-nine.vercel.app/*
+
+*The Last-Minute Life Saver:
 Live URL: https://the-last-minute-life-saver-719087536560.asia-southeast1.run.app/*
 
 ## ✨ About the Project
