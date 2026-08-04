@@ -7,12 +7,15 @@
 <br />
 
 ## 🚀 Live Demo
-*Codex AI – NexusVoid:
-Live URL: https://codexai-nine.vercel.app/*
-
-*The Last-Minute Life Saver:
-Live URL: https://the-last-minute-life-saver-719087536560.asia-southeast1.run.app/*
-
+*
+- Codex AI – NexusVoid:
+  Live URL: https://codexai-nine.vercel.app/
+  *
+  
+- The Last-Minute Life Saver:
+  Live URL: https://the-last-minute-life-saver-719087536560.asia-southeast1.run.app/
+  *
+  
 ## ✨ About the Project
 Project Atlas is the official developer portfolio of **Harsh Mehta**, an aspiring AI Full-Stack Developer and future tech entrepreneur. Designed with a dark-mode, glassmorphism UI, it aims to reflect a premium SaaS startup aesthetic rather than a standard student portfolio. 
 
