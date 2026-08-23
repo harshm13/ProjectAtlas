@@ -35,7 +35,7 @@ const Contact = () => {
           spread: 70,
           origin: { y: 0.6 }
         });
-      } catch (err) {
+      } catch {
         // Fallback silently if canvas-confetti issue
       }
 
@@ -64,7 +64,7 @@ const Contact = () => {
             <HiSparkles /> GET IN TOUCH
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-white font-outfit">
-            Let's Build <span className="gradient-text-shimmer">Together</span>
+            Let&apos;s Build <span className="gradient-text-shimmer">Together</span>
           </h2>
           <p className="text-textMuted text-sm sm:text-base">
             Have an exciting project, AI idea, job opportunity, or collaboration in mind? Drop me a line below!

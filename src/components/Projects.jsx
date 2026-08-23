@@ -1,22 +1,8 @@
-import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaRocket, FaClock, FaStar, FaBrain } from 'react-icons/fa';
-import { HiSparkles, HiCode } from 'react-icons/hi';
+import { FaGithub, FaExternalLinkAlt, FaClock } from 'react-icons/fa';
+import { HiCode } from 'react-icons/hi';
 
 const featuredProjects = [
-  {
-    id: 'globetrotter',
-    title: 'GlobeTrotter',
-    badge: 'Odoo x LDCE Hackathon',
-    tagline: 'Global Exploration & Travel Planning',
-    description: 'Developed under tight deadlines for the Odoo x LDCE Hackathon (Team NexusVoid). GlobeTrotter is an innovative application designed to streamline global exploration and travel planning. Engineered with a focus on rapid deployment, clean UI/UX, and scalable architecture.',
-    tech: ['React', 'Node.js', 'Tailwind CSS', 'Vite'],
-    github: 'https://github.com/harshm13/GlobeTrotter-NexusVoid',
-    demo: 'https://globetrotter-nexusvoid.ai.studio/',
-    image: 'https://images.unsplash.com/photo-1542224566-6e85f2e6772f?auto=format&fit=crop&w=1920&q=80',
-    stats: { stars: '0', status: 'Hackathon Build' },
-    glow: 'from-orange-600/30 via-amber-600/20 to-yellow-600/30',
-  },
   {
     id: 'nexusvoid',
     title: 'Codex AI – NexusVoid',
@@ -105,8 +91,6 @@ const upcomingProjects = [
 ];
 
 const Projects = () => {
-  const [filter, setFilter] = useState('all');
-
   return (
     <section id="projects" className="py-24 relative overflow-hidden">
       {/* Background radial glow */}
@@ -129,7 +113,7 @@ const Projects = () => {
             Featured <span className="gradient-text-shimmer">Projects</span>
           </h2>
           <p className="text-textMuted text-sm sm:text-base">
-            Explore AI-driven platforms, full-stack applications, and software products I've architected.
+            Explore AI-driven platforms, full-stack applications, and software products I&apos;ve architected.
           </p>
         </motion.div>
 

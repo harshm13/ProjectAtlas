@@ -75,7 +75,7 @@ const Hero = () => {
             {/* Greeting */}
             <div className="space-y-2">
               <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white font-outfit">
-                Hi, I'm <span className="gradient-text-shimmer">Harsh Mehta</span>
+                Hi, I&apos;m <span className="gradient-text-shimmer">Harsh Mehta</span>
               </h1>
               
               {/* Typewriter Role */}
@@ -196,22 +196,22 @@ const Hero = () => {
                     <span className="text-secondary font-bold">const</span> <span className="text-accent">developer</span> = &#123;
                   </div>
                   <div className="pl-4">
-                    <span className="text-textMuted">name:</span> <span className="text-emerald-400">'Harsh Mehta'</span>,
+                    <span className="text-textMuted">name:</span> <span className="text-emerald-400">&apos;Harsh Mehta&apos;</span>,
                   </div>
                   <div className="pl-4">
-                    <span className="text-textMuted">degree:</span> <span className="text-emerald-400">'B.Tech IT (Silver Oak Univ)'</span>,
+                    <span className="text-textMuted">degree:</span> <span className="text-emerald-400">&apos;B.Tech IT (Silver Oak Univ)&apos;</span>,
                   </div>
                   <div className="pl-4">
-                    <span className="text-textMuted">stack:</span> [<span className="text-amber-300">'React'</span>, <span className="text-amber-300">'Node.js'</span>, <span className="text-amber-300">'MongoDB'</span>, <span className="text-amber-300">'Tailwind'</span>],
+                    <span className="text-textMuted">stack:</span> [<span className="text-amber-300">&apos;React&apos;</span>, <span className="text-amber-300">&apos;Node.js&apos;</span>, <span className="text-amber-300">&apos;MongoDB&apos;</span>, <span className="text-amber-300">&apos;Tailwind&apos;</span>],
                   </div>
                   <div className="pl-4">
-                    <span className="text-textMuted">aiIntegrations:</span> [<span className="text-primary">'Google Gemini API'</span>, <span className="text-primary">'OpenAI'</span>],
+                    <span className="text-textMuted">aiIntegrations:</span> [<span className="text-primary">&apos;Google Gemini API&apos;</span>, <span className="text-primary">&apos;OpenAI&apos;</span>],
                   </div>
                   <div className="pl-4">
-                    <span className="text-textMuted">vision:</span> <span className="text-emerald-400">'Build AI-First Solutions & Startup'</span>,
+                    <span className="text-textMuted">vision:</span> <span className="text-emerald-400">&apos;Build AI-First Solutions &amp; Startup&apos;</span>,
                   </div>
                   <div className="pl-4">
-                    <span className="text-textMuted">status:</span> <span className="text-primary">'Building Next-Gen Tech'</span>
+                    <span className="text-textMuted">status:</span> <span className="text-primary">&apos;Building Next-Gen Tech&apos;</span>
                   </div>
                   <div>&#125;;</div>
 

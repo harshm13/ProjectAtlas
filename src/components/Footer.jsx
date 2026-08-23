@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaChevronUp } from 'react-icons/fa';
 import { HiCode, HiLightningBolt } from 'react-icons/hi';
 

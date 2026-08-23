@@ -135,7 +135,7 @@ const Navbar = () => {
             >
               <span className="relative px-4 py-2 transition-all ease-in duration-75 bg-[#030712] rounded-[7px] group-hover:bg-opacity-0 flex items-center gap-1.5">
                 <HiSparkles className="w-3.5 h-3.5 text-accent group-hover:text-white" />
-                Let's Talk
+                Let&apos;s Talk
               </span>
             </a>
           </div>

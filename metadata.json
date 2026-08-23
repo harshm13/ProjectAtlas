@@ -1,0 +1,8 @@
+{
+  "name": "Project Atlas",
+  "description": "Personal portfolio of Harsh Mehta - AI Full-Stack Developer & Tech Entrepreneur",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

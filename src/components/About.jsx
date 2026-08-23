@@ -86,13 +86,13 @@ const About = () => {
 
               <div className="space-y-4 text-textMuted text-base leading-relaxed font-sans">
                 <p>
-                  Hello! I'm <span className="text-white font-semibold">Harsh Mehta</span>, currently pursuing a Bachelor of Technology in Information Technology. My journey into software development started with curiosity and has evolved into building AI-powered web applications using the MERN stack.
+                  Hello! I&apos;m <span className="text-white font-semibold">Harsh Mehta</span>, currently pursuing a Bachelor of Technology in Information Technology. My journey into software development started with curiosity and has evolved into building AI-powered web applications using the MERN stack.
                 </p>
                 <p>
                   I enjoy solving challenging problems through clean architecture, scalable backend systems, intuitive user interfaces, and intelligent automation. I actively participate in hackathons, continuously learn emerging technologies, contribute to personal projects, and work toward building software products that make a real impact.
                 </p>
                 <p className="text-white font-medium bg-cardDark/80 p-4 rounded-2xl border border-gray-800 border-l-4 border-l-accent">
-                  "My long-term vision is to establish an AI-first software company that creates innovative digital solutions used by businesses worldwide."
+                  &quot;My long-term vision is to establish an AI-first software company that creates innovative digital solutions used by businesses worldwide.&quot;
                 </p>
               </div>
 

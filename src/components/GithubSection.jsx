@@ -1,58 +1,57 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaStar, FaCodeBranch, FaUsers, FaBookOpen, FaExternalLinkAlt } from 'react-icons/fa';
-import { HiSparkles, HiTerminal } from 'react-icons/hi';
+import { HiTerminal } from 'react-icons/hi';
+
+const fallbackUser = {
+  login: 'harshm13',
+  name: 'Harsh Mehta',
+  public_repos: 18,
+  followers: 42,
+  following: 28,
+  bio: 'AI Full-Stack Developer | MERN Specialist | Entrepreneurial Mindset',
+  avatar_url: 'https://github.com/harshm13.png',
+  html_url: 'https://github.com/harshm13'
+};
+
+const fallbackRepos = [
+  {
+    name: 'NexusVoid',
+    description: 'Codex AI - Autonomous AI Coding Engine & Assistant platform.',
+    stargazers_count: 14,
+    forks_count: 5,
+    language: 'JavaScript',
+    html_url: 'https://github.com/harshm13/NexusVoid'
+  },
+  {
+    name: 'TransitOps',
+    description: 'Enterprise Transportation & Fleet Operations Management system.',
+    stargazers_count: 9,
+    forks_count: 3,
+    language: 'JavaScript',
+    html_url: 'https://github.com/harshm13/TransitOps'
+  },
+  {
+    name: 'LastMinuteLifeSaver',
+    description: 'AI Productivity Assistant for urgent scheduling & task breakdown.',
+    stargazers_count: 11,
+    forks_count: 4,
+    language: 'JavaScript',
+    html_url: 'https://github.com/harshm13/LastMinuteLifeSaver'
+  },
+  {
+    name: 'ProjectAtlas',
+    description: 'Futuristic personal portfolio engineered with React & Tailwind CSS.',
+    stargazers_count: 8,
+    forks_count: 2,
+    language: 'JavaScript',
+    html_url: 'https://github.com/harshm13/ProjectAtlas'
+  }
+];
 
 const GithubSection = () => {
   const [userData, setUserData] = useState(null);
   const [repos, setRepos] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  const fallbackUser = {
-    login: 'harshm13',
-    name: 'Harsh Mehta',
-    public_repos: 18,
-    followers: 42,
-    following: 28,
-    bio: 'AI Full-Stack Developer | MERN Specialist | Entrepreneurial Mindset',
-    avatar_url: 'https://github.com/harshm13.png',
-    html_url: 'https://github.com/harshm13'
-  };
-
-  const fallbackRepos = [
-    {
-      name: 'NexusVoid',
-      description: 'Codex AI - Autonomous AI Coding Engine & Assistant platform.',
-      stargazers_count: 14,
-      forks_count: 5,
-      language: 'JavaScript',
-      html_url: 'https://github.com/harshm13/NexusVoid'
-    },
-    {
-      name: 'TransitOps',
-      description: 'Enterprise Transportation & Fleet Operations Management system.',
-      stargazers_count: 9,
-      forks_count: 3,
-      language: 'JavaScript',
-      html_url: 'https://github.com/harshm13/TransitOps'
-    },
-    {
-      name: 'LastMinuteLifeSaver',
-      description: 'AI Productivity Assistant for urgent scheduling & task breakdown.',
-      stargazers_count: 11,
-      forks_count: 4,
-      language: 'JavaScript',
-      html_url: 'https://github.com/harshm13/LastMinuteLifeSaver'
-    },
-    {
-      name: 'ProjectAtlas',
-      description: 'Futuristic personal portfolio engineered with React & Tailwind CSS.',
-      stargazers_count: 8,
-      forks_count: 2,
-      language: 'JavaScript',
-      html_url: 'https://github.com/harshm13/ProjectAtlas'
-    }
-  ];
 
   useEffect(() => {
     const fetchGithub = async () => {
@@ -72,11 +71,9 @@ const GithubSection = () => {
         } else {
           setRepos(fallbackRepos);
         }
-      } catch (err) {
+      } catch {
         setUserData(fallbackUser);
         setRepos(fallbackRepos);
-      } finally {
-        setLoading(false);
       }
     };
 

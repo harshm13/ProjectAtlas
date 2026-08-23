@@ -7,13 +7,15 @@
 <br />
 
 ## 🚀 Live Demo
-**Project Atlas is live!** Check out the official deployment: 
-👉 [projectatlass.ai.studio](https://projectatlass.ai.studio)
 
-### 🌟 Featured Live Projects
-- **Codex AI – NexusVoid:** [Live Deployment](https://codexai-nine.vercel.app/)
-- **The Last-Minute Life Saver:** [Live Deployment](https://the-last-minute-life-saver-719087536560.asia-southeast1.run.app/)
-
+- Codex AI – NexusVoid:
+  Live URL: https://codexai-nine.vercel.app/
+  
+  
+- The Last-Minute Life Saver:
+  Live URL: https://the-last-minute-life-saver-719087536560.asia-southeast1.run.app/
+  
+  
 ## ✨ About the Project
 Project Atlas is the official developer portfolio of **Harsh Mehta**, an aspiring AI Full-Stack Developer and future tech entrepreneur. Designed with a dark-mode, glassmorphism UI, it aims to reflect a premium SaaS startup aesthetic rather than a standard student portfolio. 
 
