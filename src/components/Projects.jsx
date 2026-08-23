@@ -5,6 +5,19 @@ import { HiSparkles, HiCode } from 'react-icons/hi';
 
 const featuredProjects = [
   {
+    id: 'globetrotter',
+    title: 'GlobeTrotter',
+    badge: 'Odoo x LDCE Hackathon',
+    tagline: 'Global Exploration & Travel Planning',
+    description: 'Developed under tight deadlines for the Odoo x LDCE Hackathon (Team NexusVoid). GlobeTrotter is an innovative application designed to streamline global exploration and travel planning. Engineered with a focus on rapid deployment, clean UI/UX, and scalable architecture.',
+    tech: ['React', 'Node.js', 'Tailwind CSS', 'Vite'],
+    github: 'https://github.com/harshm13/GlobeTrotter-NexusVoid',
+    demo: 'https://github.com/harshm13/GlobeTrotter-NexusVoid',
+    image: 'https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=800&q=80',
+    stats: { stars: '0', status: 'Hackathon Build' },
+    glow: 'from-orange-600/30 via-amber-600/20 to-yellow-600/30',
+  },
+  {
     id: 'nexusvoid',
     title: 'Codex AI – NexusVoid',
     badge: 'Featured AI SaaS',
