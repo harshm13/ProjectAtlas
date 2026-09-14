@@ -52,7 +52,7 @@ const featuredProjects = [
   tech: ['HTML5', 'CSS3', 'JavaScript', 'Leaflet.js', 'SweetAlert2', 'Particles.js', 'Python', 'FastAPI', 'MongoDB'],
   github: 'https://github.com/harshm13/green_route_project',
   demo: 'https://github.com/harshm13/green_route_project',
-  image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80',
+  image: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1600&q=80',
   stats: {
     stars: '0',
     status: 'In Active Development'
