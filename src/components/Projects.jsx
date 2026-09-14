@@ -44,7 +44,8 @@ const featuredProjects = [
     stars: '0',
     status: 'In Active Development'
   },
-      {
+      
+  {
     id: 'resumeos',
     title: 'ResumeOS',
     badge: 'AI SaaS Platform',
