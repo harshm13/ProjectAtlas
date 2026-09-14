@@ -13,7 +13,7 @@ const featuredProjects = [
     tech: ['React', 'Node.js', 'Express', 'Tailwind v4', 'Gemini API'],
     github: 'https://github.com/harshm13/ResumeOS',
     demo: 'https://github.com/harshm13/ResumeOS',
-    image: '/resumeos-ui.png',
+    image: '/resumeos-thumb.svg',
     stats: { stars: '0', status: 'In Active Development' },
     glow: 'from-blue-600/30 via-cyan-600/20 to-indigo-600/30',
   },
