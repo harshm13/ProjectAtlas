@@ -44,6 +44,22 @@ const featuredProjects = [
     glow: 'from-blue-600/30 via-indigo-600/20 to-purple-600/30',
   },
   {
+  id: 'greenroute',
+  title: 'GreenRoute',
+  badge: 'Smart Waste Management',
+  tagline: 'Gamified Recycling & Optimized Fleet Routing',
+  description: 'An IoT-inspired smart waste management platform featuring a gamified citizen app for recycling rewards and a map-based admin dashboard for optimized fleet routing. Reduces fuel consumption through dynamic priority routing and predictive heatmaps.',
+  tech: ['HTML5', 'CSS3', 'JavaScript', 'Leaflet.js', 'SweetAlert2', 'Particles.js', 'Python', 'FastAPI', 'MongoDB'],
+  github: 'https://github.com/harshm13/green_route_project',
+  demo: 'https://github.com/harshm13/green_route_project',
+  image: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1600&q=80',
+  stats: {
+    stars: '0',
+    status: 'In Active Development'
+  },
+  glow: 'from-green-600/30 via-emerald-600/20 to-teal-600/30',
+},
+  {
     id: 'transitops',
     title: 'TransitOps',
     badge: 'Enterprise Platform',
